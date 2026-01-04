@@ -7,6 +7,6 @@ def chai_counter():
         global chai_order
         chai_order="Ginger"
     print_order()
-    print(f"Updated Chai: {chai_order}")
 
 chai_counter()
+print(f"Updated Chai: {chai_order}")
